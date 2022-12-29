@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Signika+Negative:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+}
+.column{
+    float: left;
+    width:33.33%;
+    padding:50px;
+}
+.row{
+    content:"";
+    display:table-cell;
+    clear:both;
+    height:4000 px;
+    width: 3500px;
+}
+body {
+    background: rgb(255, 149, 21);
+}
+.responsive {
+    max-width: 100%;
+    height: auto;
+  }
+  h1 {
+    font-size: 60px;
+    line-height: 1.1;
+    margin-bottom: 30px;
+    font-family: "Unbounded", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  h3{
+ font-family: 'Signika Negative', sans-serif;
+  }
+  p{
+ font-family: 'Signika Negative', sans-serif;
+  }
